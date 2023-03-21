@@ -1,0 +1,9 @@
+.title{
+    font-size: 5rem;
+    color: black;
+    font-family: 'Vesper Libre', serif;
+    font-weight: 900;
+    font-style: bold;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
