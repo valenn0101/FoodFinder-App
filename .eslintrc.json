@@ -3,6 +3,19 @@
         "browser": true,
         "es2021": true
     },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["./src"]
+              },
+          "alias": {
+            "map": [
+              ["@", "./src"]
+            ],
+            "extensions": [".js", ".jsx", ".json"]
+          }
+        }
+      },      
     "extends": [
         "plugin:react/recommended",
         "airbnb"
@@ -17,5 +30,6 @@
         "react"
     ],
     "rules": {
+        "react/jsx-indent": [2, 4]
     }
 }
