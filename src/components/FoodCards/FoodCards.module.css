@@ -1,0 +1,84 @@
+.aBox {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+  margin: 20px;
+}
+
+.imgContainer {
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.imgContainer img {
+    transform: skew(0deg, -13deg);
+    height: 250px;
+    margin: -35px 0px 0px -70px;
+}
+
+.innerSkew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transform: skew(0deg, 13deg);
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 250px;
+    width: 200px;
+}
+
+.textContainer {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: rgba(60, 42, 33, 0.91);
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+  color: white;
+}
+
+.textContainer h3 {
+  margin: 20px 0px 10px 0px;
+  color: #5D9C59;
+  font-size: 20px;
+}
+/*
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.card h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.foodContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    max-width: 80%;
+  }
+
+.imgContainer{
+  border: 3px solid green;
+}
+*/
